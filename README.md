@@ -19,5 +19,3 @@ Add to hosts file
 127.0.0.1    foo.code-plug-shoe.com
 127.0.0.1    bar.code-plug-shoe.com
 ```
-
-
