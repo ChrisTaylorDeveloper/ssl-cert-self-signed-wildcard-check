@@ -9,4 +9,4 @@ openssl req -newkey rsa:2048 -nodes \
 
 # Create the self-signed certificate
 openssl x509 -req -days 365 -in ./selfsigned/wildcard.csr \
--signkey ./selfsigned/wildcard.key -out wildcard.crt
+-signkey ./selfsigned/wildcard.key -out ./selfsigned/wildcard.crt
