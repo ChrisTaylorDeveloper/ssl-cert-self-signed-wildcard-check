@@ -6,7 +6,8 @@ This example creates and uses a self-signed cert for the 'localhost' domain:
 
 1. Change to `localhost-example` directory.
 1. Run `create-cert-localhost.sh` (see [letsencrypt certs for localhost](https://letsencrypt.org/docs/certificates-for-localhost/)).
-1. Run `docker compose up --build` and to to https://localhost
+1. Run `docker compose up --build`.
+1. Visit https://localhost
 1. Accept browser warning.
 
 
@@ -22,8 +23,11 @@ Add to your system hosts file
 
 1. Change to `wildcard-example` directory.
 1. Run `create-cert-wildcard.sh`.
-1. Run `docker compose up --build` and to to https://localhost
-1. Visit any of https://code-plug-shoe.com, https://foo.code-plug-shoe.com, https://bar.code-plug-shoe.com
+1. Run `docker compose up --build`.
+1. Visit any of
+    * https://code-plug-shoe.com
+    * https://foo.code-plug-shoe.com
+    * https://bar.code-plug-shoe.com
 1. Accept browser warning.
 
 ## Notes
